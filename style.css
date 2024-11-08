@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+#message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
