@@ -9,6 +9,24 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.imagens {
+    display: flex;
+    gap: 5rem;               /* Espaçamento entre as imagens */
+    margin-bottom: 5rem;     /* Espaço abaixo das imagens */
+}
+
+.imagens img {
+    width: 200px;            /* Largura das imagens */
+    height: 200px;           /* Altura das imagens */
+    border-radius: 50%;      /* Tornar as imagens circulares */
+    object-fit: cover;       /* Ajustar imagem para cobrir o círculo */
+    border: 2px solid #000;  /* Borda preta em torno das imagens */
+}
+
+.imagens img:nth-child(2) {
+    transform: translateY(-50px);  /* Ajuste a altura conforme necessário */
+}
+
 button {
     border: none;
     color: black;
@@ -28,7 +46,7 @@ button:hover {
 
 #message {
     color: black;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
